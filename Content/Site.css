@@ -1,0 +1,147 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.pro {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin-left: 610px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+    border: solid black;
+    color: whitesmoke;
+}
+
+h4 {
+    background-color: #f0f5f9;
+    width: fit-content;
+}
+
+#eng {
+    background-color: #f0f5f9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: fit-content;
+    margin-top: -39px;
+}
+
+#Eb {
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 1050px;
+    width: 90px;
+}
+
+img {
+    margin: 10px;
+    width: 315px;
+}
+
+#HD {
+    margin-left: 35px;
+}
+
+#Bi {
+    margin-top: 30px;
+}
+
+#bus {
+    background-color: #f0f5f9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: fit-content;
+}
+
+#law {
+    background-color: #f0f5f9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: fit-content;
+}
+
+figure {
+    margin: 15px;
+    padding-bottom: -30px;
+}
+
+.Rfeilds {
+    background-color: #f0f5f9;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 45px;
+}
+
+#pn, #em {
+    margin-left: 31px
+}
+
+.Rfeilds2 {
+    background-color: #f0f5f9;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 45px;
+}
+
+igure {
+    margin: 10px;
+}
+
+#submit{
+    background-color:black;
+    color:whitesmoke;
+
+}
+
+ #M3 {
+    width: 150px;
+    border-style: double;
+    background-color:forestgreen
+}
+
+.pro1 {
+    border-style: groove;
+    padding: 20px;
+}
+
+#proHr {
+    margin-top: 65px;
+}
+
+#Edit {
+    float:right;
+    background-color:black;
+    color:whitesmoke;
+}
+
+.aboutus {
+    font-size: 15px;
+    font-family: cursive;
+}
+

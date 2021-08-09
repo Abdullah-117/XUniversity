@@ -1,0 +1,29 @@
+﻿
+
+@{
+    bool isAuthenticated = false;
+
+
+}
+<ul class="nav navbar-nav">
+    
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <li>@Html.ActionLink("About", "About", "Home")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    <li>@Html.ActionLink("Colleges", "Colleges", "Home")</li>
+
+    @if (isAuthenticated)
+    {
+        <li> @Html.ActionLink("Profile", "Profile", "Home") </li>
+    }
+    else
+    {
+        <li> @Html.ActionLink("Sign in", "Signin", "Home") </li>
+        <li> @Html.ActionLink("Sign up", "Signup", "Home") </li>
+    }
+
+
+    }
+    <li>
+
+</ul>
